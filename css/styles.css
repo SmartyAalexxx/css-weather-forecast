@@ -1,0 +1,102 @@
+*{
+    box-sizing: border-box;
+}
+html {
+    height: 100%
+}
+
+body {
+    margin: 0; 
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+    font-size: 18px;   
+    background-color: #3399cc;
+    min-height: 100%;
+    border: 25px solid #2b81ac;
+    
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 700px;
+    width: 96%;
+    color: #fff;    
+
+}
+
+.title,
+.footer {
+    display: block;
+    padding: 20px 0;
+}
+
+ul {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style: none;
+    margin: 0;
+    padding: 10px 5px;
+    text-align: center;
+ 
+}
+.one__block {
+    width: 25%;
+    /* outline: 2px solid green; */
+    
+}
+
+.two__blocks {
+    width: 50%;
+    /* outline: 2px solid orange; */
+}
+
+.four__blocks {
+    width: 100%;
+    /* outline: 2px solid violet; */
+}
+
+.one__block,
+.two__blocks,
+.four__blocks{
+    display: inline-block;
+    /* margin: 3px 0;     */
+    border: 6px solid #fff;
+    
+}
+
+/* Block colors */
+.block-color1 {
+    background-color: #3399cc;
+}
+.block-color2{
+    background-color: #33cccc;
+}
+.block-color3{
+    background-color: #996699;
+}
+.block-color4{
+    background-color: #c24747;
+}
+.block-color5{
+    background-color: #e2674a;
+}
+.block-color6{
+    background-color: #ffcc66;
+}
+.block-color7{
+    background-color: #99cc99;
+}
+.block-color8{
+    background-color: #669999;
+}
+.block-color9{
+    background-color: #cc6699;
+}
+.block-color10{
+    background-color: #339966;
+}
+.block-color11{
+    background-color: #666699;
+}
