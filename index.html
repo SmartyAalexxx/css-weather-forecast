@@ -10,46 +10,54 @@
     <title>Document</title>
 </head>
 <body>
-    <!-- <header>
-        https://erikflowers.github.io/weather-icons/ Сайт с иконками погоды
-        
-    </header> -->
     <main class="container">
         <span class="title">CSS Weather Forecast</span>
         
-        <div class="two__blocks"><ul>
-            <li class="city__name block-color1">Lisbon</li>
-            <li class="city__grad block-color1">21<i class="wi wi-night-sleet"></i></li></ul>
-        </div><div class="one__block"><ul>
-            <li class="city__name block-color2">Paris</li>
-            <li class="city__grad block-color2">11<i class="wi wi-night-sleet"></i></li></ul>
-        </div><div class="one__block"><ul>
-            <li class="city__name block-color3">Belgrade</li>
-            <li class="city__grad block-color3">15<i class="wi wi-night-sleet"></i></li></ul>
-        </div><div class="one__block"><ul>
-            <li class="city__name block-color4">Moscow</li>
-            <li class="city__grad block-color4">21<i class="wi wi-night-sleet"></i></li></ul>
-        </div><div class="one__block"><ul>
-            <li class="city__name block-color5">Tel Aviv</li>
-            <li class="city__grad block-color5">32<i class="wi wi-night-sleet"></i></li></ul>
-        </div><div class="one__block"><ul>
-            <li class="city__name block-color6">Cair</li>
-            <li class="city__grad block-color6">21<i class="wi wi-night-sleet"></i></li></ul>
-        </div><div class="one__block"><ul>
-            <li class="city__name block-color7">New York</li>
-            <li class="city__grad block-color7">17<i class="wi wi-night-sleet"></i></li></ul>
-        </div><div class="one__block"><ul>
-            <li class="city__name block-color8">New Delhi</li>
-            <li class="city__grad block-color8">17<i class="wi wi-night-sleet"></i></li></ul>
-        </div><div class="two__blocks"><ul>
-            <li class="city__name block-color9">San Francisco</li>
-            <li class="city__grad block-color9">15<i class="wi wi-night-sleet"></i></li></ul>
-        </div><div class="one__block"><ul>
-            <li class="city__name block-color10">Tokyo</li>
-            <li class="city__grad block-color10">8<i class="wi wi-night-sleet"></i></li></ul>
-        </div><div class="four__blocks"><ul>
-            <li class="city__name block-color11">Sydney</li>
-            <li class="city__grad block-color11">25<i class="wi wi-night-sleet"></i></li></ul>
+        <div class="all__blocks">
+            <div class="two__blocks"><ul>
+                <li class="city__name block-color1">Lisbon</li>
+                <li class="city__grad block-color1"><span>21<i class="wi wi-celsius"></i>  <i class="wi wi-day-sunny"></i></span></li></ul>
+            </div>
+            <div class="one__block"><ul>
+                <li class="city__name block-color2">Paris</li>
+                <li class="city__grad block-color2"><span>11<i class="wi wi-celsius"></i>  <i class="wi wi-night-hail"></i></span></li></ul>
+            </div>
+            <div class="one__block"><ul>
+                <li class="city__name block-color3">Belgrade</li>
+                <li class="city__grad block-color3"><span>15<i class="wi wi-celsius"></i>  <i class="wi wi-day-cloudy"></i></span></li></ul>
+            </div>
+            <div class="one__block"><ul>
+                <li class="city__name block-color4">Moscow</li>
+                <li class="city__grad block-color4"><span>21<i class="wi wi-celsius"></i>  <i class="wi wi-day-cloudy-high"></i></span></li></ul>
+            </div>
+            <div class="one__block"><ul>
+                <li class="city__name block-color5">Tel Aviv</li>
+                <li class="city__grad block-color5"><span>32<i class="wi wi-celsius"></i>  <i class="wi wi-hot"></i></span></li></ul>
+            </div>
+            <div class="one__block"><ul>
+                <li class="city__name block-color6">Cair</li>
+                <li class="city__grad block-color6"><span>21<i class="wi wi-celsius"></i>  <i class="wi wi-day-sunny"></i></span></li></ul>
+            </div>
+            <div class="one__block"><ul>
+                <li class="city__name block-color7">New York</li>
+                <li class="city__grad block-color7"><span>17<i class="wi wi-celsius"></i>  <i class="wi wi-day-lightning"></i></span></li></ul>
+            </div>
+            <div class="one__block"><ul>
+                <li class="city__name block-color8">New Delhi</li>
+                <li class="city__grad block-color8"><span>17<i class="wi wi-celsius"></i>  <i class="wi wi-hail"></i></span></li></ul>
+            </div>
+            <div class="two__blocks"><ul>
+                <li class="city__name block-color9">San Francisco</li>
+                <li class="city__grad block-color9"><span>15<i class="wi wi-celsius"></i>  <i class="wi wi-day-sunny-overcast"></i></span></li></ul>
+            </div>
+            <div class="one__block"><ul>
+                <li class="city__name block-color10">Tokyo</li>
+                <li class="city__grad block-color10"><span>8<i class="wi wi-celsius"></i>  <i class="wi wi-night-clear"></i></span></li></ul>
+            </div>
+            <div class="four__blocks"><ul>
+                <li class="city__name block-color11">Sydney</li>
+                <li class="city__grad block-color11"><span>25<i class="wi wi-celsius"></i>  <i class="wi wi-night-partly-cloudy"></i></span></li></ul>
+            </div>
         </div>
         
             <span class="footer">Have a nice day and don't forget umbrella if you are in New Delhi now!</span>
@@ -57,16 +65,16 @@
     <!-- <footer>
         Требования:
 Города это список:
--НЕ ИСПОЛЬЗОВАТЬ FLOAT!
--Для размещения в “сетку” городов используем display: inline-block;
--Ширину каждого пункта делать в процентах (например: width: 50%)
++НЕ ИСПОЛЬЗОВАТЬ FLOAT!
++Для размещения в “сетку” городов используем display: inline-block;
++Ширину каждого пункта делать в процентах (например: width: 50%)
 -Для эффекта смены прозрачности используем :hover и opacity
--Иконки берем от сюда https://erikflowers.github.io/weather-icons/
--Подключить иконки нужно прописав в <head>
++Иконки берем от сюда https://erikflowers.github.io/weather-icons/
++Подключить иконки нужно прописав в <head>
 
--Для плавных анимаций используйте CSS код: *{transition: all .1s ease-in;}
--Цвета определяйте с помощью “pixie” или другого похожего инструмента
--Шрифт: “Lucida Sans Unicode”, “Lucida Grande”, sans-serif
++Для плавных анимаций используйте CSS код: *{transition: all .1s ease-in;}
++Цвета определяйте с помощью “pixie” или другого похожего инструмента
++Шрифт: “Lucida Sans Unicode”, “Lucida Grande”, sans-serif
     </footer> -->
 </body>
 </html>
